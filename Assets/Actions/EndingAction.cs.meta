@@ -1,3 +1,14 @@
 fileFormatVersion: 2
 guid: b7ca9e00dd183bf42871a5d9a0c3b8c5
-timeCreated: 1673086895
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - _scoreCounter: {instanceID: 0}
+  - scoreEffectContainer: {instanceID: 0}
+  - scoreEffectPrefab: {fileID: 7173236077400877194, guid: 7039e2739c3ce454aae015ac1d0fc58f, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

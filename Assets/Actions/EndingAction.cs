@@ -17,6 +17,8 @@ public class EndingAction : StationAction
                     if (death.ReadyToGo())
                     {
                         _scoreCounter.score += death.embalmingSteps.Count * 2;
+                        GameObject scoreEffect = Instantiate(_scoreCounter.scoreEffectPrefab, _scoreCounter.scoreEffectContainer.transform);
+                        scoreEffect.GetComponent<ScoreEffect>().SetScore(death.embalmingSteps.Count * 2);
                         death.BeDropped(_station.gameObject);
                         death.End();
                         _player.Drop();
